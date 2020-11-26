@@ -8,6 +8,8 @@
 }
 
 body {
+  border: 2px solid black;
+  padding: 5px;
 }
 
 header {
@@ -17,26 +19,72 @@ header {
   background: #FFA500;
 }
 
-section {
-}
-
 #left {
+  width: 33.33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #30948D;
+  float: left;
+  color: #fff;
 }
 
 #middle {
+  width: 33.33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #9E1212;
+  float: left;
+  color: #fff;
 }
 
 #right {
+  width: 33.33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #30948D;
+  float: left;
+  color: #fff;
 }
 
 #full {
+  background: #394549;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  overflow: auto;
+  clear: both;
 }
 
 #division {
+  color: #fff;
+  background: #6ea3da;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 aside {
+  width: 33%;
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+  color: #fff;
+  background: #a6b747;
+  padding: 20px;
 }
 
 footer {
+  padding: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
